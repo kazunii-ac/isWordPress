@@ -1,3 +1,6 @@
+<html>
+  <body>
+    <pre>
 <?php
 include_once 'isWordPress.php';
 
@@ -8,3 +11,7 @@ $cls2 = @new isWordPress('https://www.yahoo.com/');
 var_dump($cls2->result); // yahoo.com is not made by WordPress, false
 
 var_dump($cls2);  //another some infomation exist.
+?>
+    </pre>
+  </body>
+</html>
