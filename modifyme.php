@@ -4,7 +4,7 @@
 <?php
 include_once 'isWordPress.php';
 
-$cls1 = @new isWordPress('https://make.wordpress.org/');
+$cls1 = @new isWordPress('https://make.wordpress.org/marketing/');
 var_dump($cls1->result); // wordpress.org is made by WordPress, true
 
 $cls2 = @new isWordPress('https://www.yahoo.com/');
