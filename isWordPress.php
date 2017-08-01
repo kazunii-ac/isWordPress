@@ -252,7 +252,7 @@ class isWordPress {
             $urlHead = 'https://';
         }
         $S = str_replace($urlHead, '', $urlForDirectories);
-        $tempArr = split('/', $S);
+        $tempArr = explode('/', $S);
         $retDirectoriesArr = array();
         $connectedUrl = $urlHead;
         foreach ($tempArr as $oneDirectory) {
